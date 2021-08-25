@@ -1,0 +1,173 @@
+body main{
+    padding: 10% 25%;
+    font-family: "Karla";
+    font-size: 16px;
+    background-color: hsla(217, 22%, 67%, 0.192);
+}
+
+html .card{
+    width: 100%;
+}
+
+
+
+/* 1st card */
+
+
+
+
+.card.card1{
+    padding: 20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    
+}
+
+
+.card1 h5{
+    font-weight: bolder;
+    color: hsl(179, 62%, 43%);
+    margin-bottom: 25px;
+    
+}
+.card1 h6{
+    font-weight: bold;
+    color: hsl(71, 73%, 54%);
+    margin-bottom: 10px;
+}
+
+.card1 .card-text{
+    color: hsl(218, 22%, 67%);
+}
+
+
+
+
+
+
+
+/* 2nd card */
+
+
+
+.card.card2{
+    background-color: hsl(179, 62%, 43%);
+    padding: 10px 5px;
+    color: white;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.card2 h1{
+    font-weight: bolder;
+    float: left;
+    margin-right: 20px;
+}
+
+.card2 span{
+    color: hsl(217, 16%, 69%);
+    position: relative;
+    bottom: px;
+    right: 3px;
+}
+
+.card2 h6{
+    font-weight: bolder;
+}
+
+.card2 p{
+    float: none;
+    margin-top: 22px;
+}
+.card2 .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    color: white;
+    background-color: hsl(71, 73%, 54%);
+    margin-top: 30px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+/* 3rd card */
+
+
+
+.card.card3{
+    background-color: rgb(54, 190, 177);
+    color: white;
+    padding: 12px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.card3 h6{
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.card3 p{
+    color: hsl(204, 43%, 93%);
+}
+
+
+
+
+/* footer section */
+
+
+.attribution{
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* mobile responsive  */
+
+
+
+@media(max-width:1000px){
+
+    body main{
+        padding:10% 15%;
+    }
+    main .card1{
+        border: 10px;
+        width: 100%;
+        height: 100%;
+        position: relative;
+    bottom: -40px;
+    }
+
+    main .card2{
+        border-bottom-left-radius: 0;
+        width: 100%;
+        height: 100%;
+        position: relative;
+    bottom: -20px;
+    }
+
+    .card.card3{
+        border-bottom-left-radius: 4px;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
